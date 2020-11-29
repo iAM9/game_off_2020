@@ -207,7 +207,7 @@ It&#39;s just a table, you know? Nothing special.
 Right..............?&quot;)
 (display: &quot;Typewriter&quot;)
 
-(live: 5000ms)[[[But enough of this.|Enough of this.]]]</tw-passagedata><tw-passagedata pid="17" name="Enough of this." tags="" position="972,684" size="100,100">(track: &quot;bg02&quot;, &quot;play&quot;)
+(live: 5000ms)[[[But enough of this.|Enough of this.]]]</tw-passagedata><tw-passagedata pid="17" name="Enough of this." tags="" position="852,602.3333333333334" size="100,100">(track: &quot;bg02&quot;, &quot;play&quot;)
 (set: $tr=&quot;I get up and stretch myself and look around.
 
 Though it&#39;s a small room, it&#39;s still MY room.
@@ -708,7 +708,7 @@ That&#39;s because mold has over taken everything.
 
 It&#39;s not there anymore.
 
-[[Return|Exit to main basement hall.]]</tw-passagedata><tw-passagedata pid="82" name="Check surroundings." tags="" position="560,512" size="100,100">(set: $tr=&quot;I realize that where I am right now, it&#39;s quiet. 
+[[Return|Exit to main basement hall.]]</tw-passagedata><tw-passagedata pid="82" name="Check surroundings." tags="" position="560,512" size="100,100">(set: $tr=&quot;The ringing has stopped. And I realize that where I am right now, it&#39;s quiet. 
 
 Too quiet.
 
@@ -913,6 +913,7 @@ Rows of computer terminals line the area. There are some crudely made robots and
 [[Look at terminals starting from 400]]
 [[Look at terminals starting from 500]]
 [[Look at robots]]
+[[Return to command deck|Spaceship]]
 &lt;audio src=&quot;./assets/audio/sounds_cc/hard_drive_working.mp3&quot; autoplay&gt;&lt;/audio&gt;</tw-passagedata><tw-passagedata pid="110" name="Go to Engineering" tags="" position="2934,887" size="100,100">The door to engineering is jammed.
 
 Someone has destroyed it.
@@ -931,31 +932,43 @@ You smell something rotten coming from there; you decide to ignore it.
 
 You don&#39;t care anymore.
 
-[[Go back to central deck|Spaceship]]</tw-passagedata><tw-passagedata pid="112" name="Look at terminals starting from 100" tags="" position="3697,80" size="100,100">You see computer terminals numbered from 100 to 108.
+There&#39;s a [[hand-written note]].
+
+[[Go back to central deck|Spaceship]]</tw-passagedata><tw-passagedata pid="112" name="Look at terminals starting from 100" tags="" position="3697,80" size="100,100">COMPUTER TERMINALS 100-series
+
+You see computer terminals numbered from 100 to 108.
 
 All of them are destroyed.
 
 (...I did that...)
 
-[[Go back|Go the Command Modules in the front]]</tw-passagedata><tw-passagedata pid="113" name="Look at terminals starting from 200" tags="" position="3512,210" size="100,100">You see computer terminals numbered from 200 to 208.
+[[Go back|Go the Command Modules in the front]]</tw-passagedata><tw-passagedata pid="113" name="Look at terminals starting from 200" tags="" position="3512,210" size="100,100">COMPUTER TERMINALS 200-series
+
+You see computer terminals numbered from 200 to 208.
 
 All of them are destroyed.
 
 (...I did that...)
 
-[[Go back|Go the Command Modules in the front]]</tw-passagedata><tw-passagedata pid="114" name="Look at terminals starting from 300" tags="" position="3739,492" size="100,100">You see computer terminals numbered from 300 to 308.
+[[Go back|Go the Command Modules in the front]]</tw-passagedata><tw-passagedata pid="114" name="Look at terminals starting from 300" tags="" position="3739,492" size="100,100">COMPUTER TERMINALS 300-series
+
+You see computer terminals numbered from 300 to 308.
 
 All of them are destroyed.
 
 (...I did that...)
 
-[[Go back|Go the Command Modules in the front]]</tw-passagedata><tw-passagedata pid="115" name="Look at terminals starting from 400" tags="" position="4047,488" size="100,100">You see computer terminals numbered from 400 to 408.
+[[Go back|Go the Command Modules in the front]]</tw-passagedata><tw-passagedata pid="115" name="Look at terminals starting from 400" tags="" position="4047,488" size="100,100">COMPUTER TERMINALS 400-series
+
+You see computer terminals numbered from 400 to 408.
 
 All of them are NOT destroyed. But they do not work.
 
 (...I do not know why...)
 
-[[Go back|Go the Command Modules in the front]]</tw-passagedata><tw-passagedata pid="116" name="Look at terminals starting from 500" tags="" position="4196,314" size="100,100">You see computer terminals numbered from 501 to 508.
+[[Go back|Go the Command Modules in the front]]</tw-passagedata><tw-passagedata pid="116" name="Look at terminals starting from 500" tags="" position="4196,314" size="100,100">COMPUTER TERMINALS 500-series
+
+You see computer terminals numbered from 501 to 508.
 
 You are also near the shuttered windows.
 
@@ -971,7 +984,7 @@ They have been mutilated
 
 (...I did that...)
 
-[[Return to command module area|Go the Command Modules in the front]]</tw-passagedata><tw-passagedata pid="118" name="Check terminals" tags="" position="4946,267" size="100,100">(move: 0 into $isReady)
+[[Return to command module area|Go the Command Modules in the front]]</tw-passagedata><tw-passagedata pid="118" name="Check terminals" tags="" position="4934.333333333333,150.33333333333331" size="100,100">COMPUTER TERMINALS 500-series
 What should I do?
 
 [[Check terminal 501]]
@@ -982,7 +995,7 @@ What should I do?
 [[Check terminal 506|Check terminals2]]
 [[Check terminal 507|Check terminals]]
 [[Check terminal 508|Check terminals]]
-[[Go back|Look at terminals starting from 500]]</tw-passagedata><tw-passagedata pid="119" name="Check shutters" tags="" position="4344,108" size="100,100">Heavy shutters from strong metal cover the gigantic windows.
+[[Go back|Look at terminals starting from 500]]</tw-passagedata><tw-passagedata pid="119" name="Check shutters" tags="" position="4344,108" size="100,100">Heavy shutters, made from strong metal, cover the gigantic windows.
 
 You try to lift them, but they do not budge.
 
@@ -992,37 +1005,48 @@ The screen lights up and asks for a password.
 
 (You do not know the password)
 
-Right beside the keyboard is a post-it note.
+Right beside the keyboard is a post-it note. It has some sort of sequence on it.
 
 [[Check note|6587]]
 
 
-[[Go back|Check terminals]]</tw-passagedata><tw-passagedata pid="121" name="Check terminal 502" tags="" position="4568,417" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="122" name="Check terminal 503" tags="" position="4718,417" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="123" name="Check terminal 504" tags="" position="5136,184" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="124" name="Check terminal 505" tags="" position="5101,297" size="100,100">(move: 5 into $isReady)</tw-passagedata><tw-passagedata pid="125" name="Check terminal 506" tags="" position="5168,417" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="126" name="Check terminal 507" tags="" position="5318,417" size="100,100"></tw-passagedata><tw-passagedata pid="127" name="Check terminal 508" tags="" position="5468,417" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="128" name="Ready" tags="" position="4418,567" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="129" name="Check terminals2" tags="" position="4908,541" size="100,100">What should I do?
+[[Go back|Check terminals]]</tw-passagedata><tw-passagedata pid="121" name="Check terminal 502" tags="" position="4568,417" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="122" name="Check terminal 503" tags="" position="4718,417" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="123" name="Check terminal 504" tags="" position="5136,184" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="124" name="Check terminal 505" tags="" position="5101,297" size="100,100">(move: 5 into $isReady)</tw-passagedata><tw-passagedata pid="125" name="Check terminal 506" tags="" position="5168,417" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="126" name="Check terminal 507" tags="" position="5318,417" size="100,100"></tw-passagedata><tw-passagedata pid="127" name="Check terminal 508" tags="" position="5468,417" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="128" name="Ready" tags="" position="4418,567" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="129" name="Check terminals2" tags="" position="4871.333333333333,357.66666666666663" size="100,100">COMPUTER TERMINALS 500-series
+What should I do?
 
 [[Check terminal 501]]
 [[Check terminal 502|Check terminals]]
 [[Check terminal 503|Check terminals]]
 [[Check terminal 504|Check terminals]]
 [[Check terminal 505|Check terminals3]]
+check complete
 [[Check terminal 507|Check terminals]]
-[[Check terminal 508|Check terminals]]</tw-passagedata><tw-passagedata pid="130" name="Check terminals3" tags="" position="5035,651" size="100,100">What should I do?
-
-[[Check terminal 501]]
-[[Check terminal 502|Check terminals]]
-[[Check terminal 503|Check terminals]]
-[[Check terminal 504|Check terminals]]
-[[Check terminal 507|Check terminals]]
-[[Check terminal 508|Check terminals4]]</tw-passagedata><tw-passagedata pid="131" name="Check terminals4" tags="" position="5147,841" size="100,100">What should I do?
-
-[[Check terminal 501]]
-[[Check terminal 502|Check terminals]]
-[[Check terminal 503|Check terminals]]
-[[Check terminal 504|Check terminals]]
-[[Check terminal 507|Check terminals5]]</tw-passagedata><tw-passagedata pid="132" name="Check terminals5" tags="" position="4939,827" size="100,100">(track: &quot;sound_drone_bg&quot;, &quot;fadeout&quot;, 2)
-(track: &quot;bg05&quot;, &quot;fadein&quot;, 2)
-You remember something now. Regarding terminal 501.
-
+[[Check terminal 508|Check terminals]]
+[[Go back|Look at terminals starting from 500]]</tw-passagedata><tw-passagedata pid="130" name="Check terminals3" tags="" position="5001.666666666667,547.6666666666667" size="100,100">COMPUTER TERMINALS 500-series
 What should I do?
+
+[[Check terminal 501]]
+[[Check terminal 502|Check terminals]]
+[[Check terminal 503|Check terminals]]
+[[Check terminal 504|Check terminals]]
+check complete
+check complete
+[[Check terminal 507|Check terminals]]
+[[Check terminal 508|Check terminals4]]
+[[Go back|Look at terminals starting from 500]]</tw-passagedata><tw-passagedata pid="131" name="Check terminals4" tags="" position="5147,841" size="100,100">COMPUTER TERMINALS 500-series
+What should I do?
+
+[[Check terminal 501]]
+[[Check terminal 502|Check terminals]]
+[[Check terminal 503|Check terminals]]
+[[Check terminal 504|Check terminals]]
+check complete
+check complete
+[[Check terminal 507|Check terminals5]]
+check complete
+[[Go back|Look at terminals starting from 500]]</tw-passagedata><tw-passagedata pid="132" name="Check terminals5" tags="" position="4939,827" size="100,100">(track: &quot;sound_drone_bg&quot;, &quot;fadeout&quot;, 2)
+(track: &quot;bg05&quot;, &quot;fadein&quot;, 2)
+Checks complete!
+You remember something now. Regarding terminal 501.
 
 [[Check terminal 501|atLast]]</tw-passagedata><tw-passagedata pid="133" name="atLast" tags="" position="2251,88" size="100,100">You pull up a chair from under the desk and you sit down.
 
@@ -1092,7 +1116,7 @@ What was left, can only be described as a piece of burnt wood...
 
 ...cold and empty.&quot;
 
-[[Continue|continue10]]</tw-passagedata><tw-passagedata pid="146" name="continue10" tags="" position="1831,336" size="100,100">&quot;I was not on Earth when the Earth burnt. I still do not remember how it happened.
+[[Continue|continue10]]</tw-passagedata><tw-passagedata pid="146" name="continue10" tags="" position="1831,336" size="100,100">&quot;I was not on Earth when the Earth burned. I still do not remember how it happened.
 
 Instead, I was on the Moon.
 
@@ -1170,8 +1194,8 @@ Music:
 &lt;a href=&quot;https://freemusicarchive.org/music/Kai_Engel/The_Run/Kai_Engel_-_The_Run_-_04_Imminence&quot;&gt;  Imminence by Kai Engel  &lt;/a&gt;--&lt;a href=&quot;https://creativecommons.org/licenses/by/4.0/&quot;&gt;CC BY 4.0&lt;/a&gt;
 &lt;/div&gt;</tw-passagedata><tw-passagedata pid="153" name="6587" tags="" position="4538,567" size="100,100">[[Return|Check terminal 501]]
 
-&lt;img src=&quot;./assets/images/_lores.jpg&quot; style=&quot;height:600px;width:auto;&quot;&gt;
-</tw-passagedata><tw-passagedata pid="154" name="Go back|" tags="" position="4946,417" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="155" name="hal.tracks" tags="" position="47,242" size="100,100">sound_phone:./assets/audio/sounds_cc/phone_ringing.mp3
+&lt;img src=&quot;https://raw.githubusercontent.com/iAM9/game_off_2020/main/assets/images/_lores.jpg&quot; style=&quot;height:600px;width:auto;&quot;&gt;
+</tw-passagedata><tw-passagedata pid="154" name="Go back|" tags="" position="5399.333333333333,647" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="155" name="hal.tracks" tags="" position="47,242" size="100,100">sound_phone:./assets/audio/sounds_cc/phone_ringing.mp3
 sound_door:./assets/audio/sounds_cc/castle_metal_jail_door_closed.mp3
 sound_drone_bg:./assets/audio/sounds_cc/eerie_space_drone.mp3
 sound_machinery:./assets/audio/sounds_cc/hard_drive_working.mp3
@@ -1211,17 +1235,24 @@ The people that I met...and the ones that I will never meet now.&quot;)
 (live: 15000ms)[[[...|...2]]]</tw-passagedata><tw-passagedata pid="160" name="continue13a" tags="" position="1501,202" size="100,100">&lt;img src=&quot;./assets/images/scorched_earth_04.jpg&quot; style=&quot;margin-left: -17vw;margin-top: -5vw;position: absolute;&quot;&gt;
 [[continue|continue13]]</tw-passagedata><tw-passagedata pid="161" name="&quot;shoot for the moon&quot;" tags="" position="1099,74" size="100,100">&quot;The only thing that I do now, is keep on reliving my memories.
 
-I kept pictures, diary entries, everything before I came here. I put it in Engieering.
+I kept pictures, diary entries, everything before I came here. I put it in Engineering.
 
 But I don&#39;t want to go back there anymore.
 
-I&#39;ve shut down that area. [[Maybe this is the end?]]</tw-passagedata><tw-passagedata pid="162" name="Maybe this is the end?" tags="" position="862,43" size="100,100">Doesn&#39;t matter.
+I&#39;ve shut down that area. [[Maybe this is the end?]]</tw-passagedata><tw-passagedata pid="162" name="Maybe this is the end?" tags="" position="863.6666666666666,41.333333333333336" size="100,100">Doesn&#39;t matter.
 
 Because I&#39;m still on the Moon. 
 
 I am here but...&quot;
 
-[[continue|I want to go back.]]&quot;</tw-passagedata></tw-storydata>
+[[continue|I want to go back.]]&quot;</tw-passagedata><tw-passagedata pid="163" name="hand-written note" tags="" position="3088.3333333333335,912" size="100,100">&#39;MEMO#----
+
+Access to the first computer terminal of every series requires the user to perform a small check. 
+
+The check sequence is done manually by accessing other terminals from the same series. 
+
+Think of it a key code: you enter the password by accessing other terminals in a specific sequence&#39;
+[[Return|Go to Living Quarters]]</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
